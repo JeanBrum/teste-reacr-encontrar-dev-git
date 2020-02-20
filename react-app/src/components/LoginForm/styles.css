@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 600px;
+    width: 500px;
+    background-color: #e4e4e4;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.registration-form {
+    text-align: center;
+}
+
+#button-submit {
+    cursor: pointer;
+    padding: 10px;
+    width: 150px;
+    border: none;
+    background: #2ecc71;
+    font-weight: bold;
+    font-size: 16px;
+    transition: width 1s;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #2980b9;
+}
+
+#github_username {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(90, 90, 90);
+    background: none;
+    font-size: 16px;
+    color: #34495e;
+    font-weight: bold;
+    outline: none;
+    transition: width 1s;
+}
+
+#label {
+    color: #34495e;
+    font-weight: bold;
+}
+
+#github_username:hover {
+    width: 300px;
+}
+
+#button-submit:hover {
+    width: 200px;
+}

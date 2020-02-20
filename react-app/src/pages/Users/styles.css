@@ -1,0 +1,23 @@
+#dev {
+    font-weight: bold;
+}
+
+.container-users {
+    width: 1350px;
+    height: 100%;
+    background: #dfe6e9;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    justify-content: center;
+}
+
+.users-block {
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    background: #bdc3c7;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px 5px 5px 5px;
+    
+}
